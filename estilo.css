@@ -1,0 +1,210 @@
+header{
+    background-image: url(imagem/header1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation-name: slide;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    height:800px;
+}
+@keyframes slide {
+    0% {background-image: url(imagem/header1.png);}
+    50% {background-image: url(imagem/header2.png);}
+    
+}
+.imagem{
+    max-width: 250px;
+}
+
+
+.novidade{
+    width: 200px;
+    height: 400px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+}
+    
+
+
+#fundo_nov:hover{
+    border: 1px black solid;
+
+}
+.titulo{
+    text-align: center;
+    font-size: 30px;
+}
+.para{
+    text-align: center;
+    
+}
+.preco{
+    text-align: center;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifq ;
+
+}
+.preco_antes{
+    text-decoration: line-through;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.418);
+    display: flex;
+    justify-content: center;
+}
+.prin{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 100px;
+    
+}
+
+.sla{
+    text-decoration: none;
+    color: black;
+}
+
+.comentario{
+    max-width: 600px;
+    display: inline-flex;
+    margin: auto;
+    justify-content: center;
+    margin-left: 230px;
+    border: 1px black solid;
+    border-radius: 50px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); 
+
+}
+
+.caixa{
+    width: 200px;
+    height: 600px;
+    border: 1px rgba(0, 0, 0, 0.192) solid;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.tam{
+    width: 50px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    
+}
+.tam2{
+    width: 70px;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+}
+.caixa2{
+    width: 650px;
+    height: 600px;
+    border: 1px rgba(0, 0, 0, 0.123) solid;
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.tamanho{
+    padding-top: 30px;
+    width: 170px;
+    display: flex;
+    margin: auto;
+}
+.tamanho2{
+    padding-top: 30px;
+    width: 250px;
+    display: flex;
+    margin: auto;
+}
+
+.tamanho3{
+    padding-top: 30px;
+    width: 450px;
+    display: flex;
+    margin: auto;
+}
+
+.caixa3{
+    width: 550px;
+    height: 600px;
+    border: 1px rgb(0, 0, 0) solid;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.titulo2{
+    font-size: 30px;
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.603);
+}
+.sub{
+    padding-left: 20px;
+    margin-bottom: 5px;
+}
+.rating > span:hover:before {
+    content: "\2605";
+    position: absolute;
+ }
+.rating{
+    margin-left: 20px;
+   
+}
+.preco3{
+    margin-bottom: 0;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serifq ;
+}
+.preco4{
+    text-decoration: line-through;
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.418);
+    padding-left: 20px;
+}
+
+.compre{
+    width: 300px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #212529;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+}
+.text{
+    color: white;
+    display: flex;
+    margin: auto;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.compre:hover{
+    background-color: #21252998;
+}
+.carrinho{
+    width: 300px;
+    height: 70px;
+    border: 1px #212529 solid;
+    border-radius: 50px;
+    display: flex;
+    margin: auto;
+
+}
+.text2{
+    color: black;
+    display: flex;
+    margin: auto;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.carrinho:hover{
+    background-color: #9fa6af98;
+}
